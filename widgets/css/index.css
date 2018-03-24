@@ -1,0 +1,70 @@
+body {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.clock h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 34px;
+  color: #be2edd
+}
+
+.clock h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 34px;
+  color: #fff200;
+}
+
+.clock h3 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 34px;
+  color: #4cd137;
+}
+
+.clock {
+  background: #0C141F;
+  margin-top: 25px;
+  padding: 20px;
+  text-align:center;
+  line-height: 45px;
+  border: 10px solid #6FC3DF;
+}
+
+.active p {
+  display: block;
+
+}
+
+.active h1 {
+  display: block;
+  border: 4px solid black;
+
+}
+
+.inactive p {
+visibility: hidden;
+}
+
+ul.tab-list {
+    display: flex;
+}
+
+
+ul.tab-list {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.tabs {
+    background: red;
+    border: 6px solid black;
+    margin-top: 30px;
+}
+
+.tabs h1 {
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    padding: 27px;
+    color:#8c7ae6;
+    margin-top: 10px;
+}
